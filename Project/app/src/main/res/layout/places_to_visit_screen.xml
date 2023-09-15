@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A5276"
+    tools:context=".places_to_visit_screen">
+
+
+    <TextView
+        android:id="@+id/textViewPlacesToVisit"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Select the Places to Visit"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonGoToMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="52dp"
+        android:backgroundTint="#831A15"
+
+        android:text="GO TO MAP"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.989"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="405dp"
+        android:layout_height="505dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPlacesToVisit">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!--        BUDDHA TEMPLE-->
+            <RelativeLayout
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#FCF3CF">
+
+                <CheckBox
+                    android:id="@+id/checkbox1"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="25dp"
+                    android:buttonTint="#000000"
+                    android:text="Buddha Temple"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="90dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_toRightOf="@id/checkbox1"
+                    android:src="@drawable/buddha_temple" />
+            </RelativeLayout>
+
+            <!--FRI-->
+            <RelativeLayout
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#F9E79F">
+
+                <CheckBox
+                    android:id="@+id/checkbox2"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="25dp"
+                    android:buttonTint="#000000"
+                    android:text="Forest Research Institute"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="90dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_toRightOf="@id/checkbox2"
+                    android:src="@drawable/fri_icon" />
+            </RelativeLayout>
+
+            <!--    ROBBERS CAVE    -->
+            <RelativeLayout
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#F7DC6F">
+
+                <CheckBox
+                    android:id="@+id/checkbox3"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="25dp"
+                    android:buttonTint="#000000"
+                    android:text="Robber's Cave"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="90dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_toRightOf="@id/checkbox3"
+                    android:src="@drawable/robbers_cave" />
+            </RelativeLayout>
+            <!--    SHAHASTRADHARA    -->
+            <RelativeLayout
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#F4D03F">
+
+                <CheckBox
+                    android:id="@+id/checkbox4"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="25dp"
+                    android:buttonTint="#000000"
+                    android:text="Shahastradhara"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="90dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_toRightOf="@id/checkbox4"
+                    android:src="@drawable/shahastradhara_icon" />
+            </RelativeLayout>
+            <!--        TAPKESHWAR-->
+            <RelativeLayout
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#F1C40F">
+
+                <CheckBox
+                    android:id="@+id/checkbox5"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="25dp"
+                    android:buttonTint="#000000"
+                    android:text="Tapkeshwar"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="90dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_toRightOf="@id/checkbox5"
+                    android:src="@drawable/tapkeshwar_icon" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textViewlocation"
+        android:layout_width="128dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="location"
+        android:textColor="#F3CBCB"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/textViewInWord"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPlacesToVisit"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textViewInWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="cursive"
+        android:text="in"
+        android:textColor="#FFFCE0"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPlacesToVisit" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

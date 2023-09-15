@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Travel with Us</string>
+    <string name="city">City<font color='#FF0000'>*</font></string>
+    <string name="startPt">Starting Point<font color='#FF0000'>*</font></string>
+    <string-array name="cities">
+        <item>Select your city</item>
+        <item>Dehradun</item>
+        <!--        <item>Rishikesh</item>-->
+    </string-array>
+
+    <string-array name="array_default_startingPoints">
+        <item>Select your starting point</item>
+    </string-array>
+
+    <string-array name="array_Dehradun">
+        <item>Select your starting point</item>
+        <item>Ballupur</item>
+        <item>Clement Town</item>
+        <item>Clock Tower</item>
+        <item>ISBT</item>
+        <item>Parade Ground</item>
+        <item>Pacific Mall</item>
+        <item>Prem Nagar</item>
+        <item>Rispana Pul</item>
+        <item>Rajpur</item>
+    </string-array>
+
+    <string-array name="array_Rishikesh">
+        <item>Select your starting point</item>
+        <item>Avas Vikas Colony</item>
+        <item>Barrage Colony</item>
+        <item>Chamba</item>
+        <item>Doiwala Block</item>
+        <item>Gumaniwala</item>
+        <item>Haridwar Block</item>
+        <item>Idpl Colony</item>
+        <item>Yamkeshwar Block</item>
+    </string-array>
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <string name="Test"><a href="http://www.ola.com">Test</a></string>
+
+
+</resources>
